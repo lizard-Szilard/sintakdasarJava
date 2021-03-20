@@ -1,5 +1,4 @@
-
-public class OddEvenSum {
+ 11public class OddEvenSum {
 	
 	public static void main(String[] args) {
 		
@@ -29,3 +28,8 @@ public class OddEvenSum {
 		System.out.println("The absolute difference between the two sums is: " + absDiff);
 	}
 }
+/* 5 --> 6--> 7 --> 8 --> 10 --> 
+12 13 16 18
+12 13 14 18
+12 13 16 18
+*/
