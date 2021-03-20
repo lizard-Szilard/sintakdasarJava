@@ -1,4 +1,4 @@
- 11public class OddEvenSum {
+ public class OddEvenSum {
 	
 	public static void main(String[] args) {
 		
@@ -12,6 +12,7 @@
 		while (number <= UPPERBOUND) {
 			if (number % 2 == 0) {
 				sumEven += number;
+
 			} else {
 				sumOdd += number;
 			}
@@ -29,7 +30,7 @@
 	}
 }
 /* 5 --> 6--> 7 --> 8 --> 10 --> 
-12 13 16 18
-12 13 14 18
-12 13 16 18
-*/
+ * 12 --> 13 --> 16 --> 18 --> 19 // sampai 500
+ * 12 --> 13 --> 14 --> 18 --> 19 // sampai 500
+ * 22 --> 25 --> 27 --> 28 --> 29 --> 30
+* /
