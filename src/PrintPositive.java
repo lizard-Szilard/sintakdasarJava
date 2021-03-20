@@ -10,3 +10,4 @@ public class PrintPositive {
         System.out.println("Statement outside if block");
     } 
 }
+// 4 --> 7 --> 8 --> 10 

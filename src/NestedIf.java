@@ -1,4 +1,3 @@
-
 public class NestedIf {
     public static void main(String[] args) {
         
@@ -17,3 +16,4 @@ public class NestedIf {
         System.out.println("Statement after nested if");
     }
 }
+// 4 --> 7 --> 10 --> 14 --> 16 --> 17

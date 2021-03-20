@@ -11,9 +11,17 @@ public class RunningNumberSum {
 
             sum = sum + number;
             ++number;
-
         }
-
         System.out.println("The sum from " + LOWERBOUND + " to " + UPPERBOUND + " is " + sum);
     }
 }
+/* 5 --> 6 --> 9 -->
+ * 10 --> 12 --> 13 -->
+ * 10 --> 12 --> 13 -->
+ * 10 --> 12 --> 13 -->
+ * 10 --> 12 --> 13 -->
+ * 10 --> 12 --> 13 -->
+ * 10 --> 12 --> 13 -->
+ * 10 --> 12 --> 13 -->
+ * 10 --> 12 --> 13 -->
+ * 15
